@@ -1,0 +1,5 @@
+C:\Users\Alumno\source\repos\PeriodoDiciembre\PeriodoDiciembre\obj\Debug\net6.0\PeriodoDiciembre.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\PeriodoDiciembre\PeriodoDiciembre\obj\Debug\net6.0\PeriodoDiciembre.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\source\repos\PeriodoDiciembre\PeriodoDiciembre\obj\Debug\net6.0\PeriodoDiciembre.AssemblyInfoInputs.cache
+C:\Users\Alumno\source\repos\PeriodoDiciembre\PeriodoDiciembre\obj\Debug\net6.0\PeriodoDiciembre.AssemblyInfo.cs
+C:\Users\Alumno\source\repos\PeriodoDiciembre\PeriodoDiciembre\obj\Debug\net6.0\PeriodoDiciembre.csproj.CoreCompileInputs.cache
