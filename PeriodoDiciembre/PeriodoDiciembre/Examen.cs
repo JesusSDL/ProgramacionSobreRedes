@@ -27,7 +27,18 @@ namespace PeriodoDiciembre
         {
             return esTeorico & puntos < 5 & estudiosos.Count < 6;
         }   
-
+        
+        public int examenMasAlumnosPar()
+        {
+            ArrayList examenes = new ArrayList();
+            foreach(Alumno alumnos in estudiosos) {
+                if (alumnos.esAlumnoPar() )
+                {
+                    examenes.Add(alumnos);
+                }
+            }
+            return examenes.Count;
+        }
         
     }
 }
