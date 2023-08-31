@@ -1,0 +1,14 @@
+C:\Users\AAAAAAAAAAAAAAA\source\repos\Mi Primer Socket\Mi Primer Socket\obj\Debug\net6.0\Mi Primer Socket.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AAAAAAAAAAAAAAA\source\repos\Mi Primer Socket\Mi Primer Socket\obj\Debug\net6.0\Mi Primer Socket.AssemblyInfoInputs.cache
+C:\Users\AAAAAAAAAAAAAAA\source\repos\Mi Primer Socket\Mi Primer Socket\obj\Debug\net6.0\Mi Primer Socket.AssemblyInfo.cs
+C:\Users\AAAAAAAAAAAAAAA\source\repos\Mi Primer Socket\Mi Primer Socket\obj\Debug\net6.0\Mi Primer Socket.csproj.CoreCompileInputs.cache
+C:\Users\AAAAAAAAAAAAAAA\source\repos\Mi Primer Socket\Mi Primer Socket\bin\Debug\net6.0\Mi Primer Socket.exe
+C:\Users\AAAAAAAAAAAAAAA\source\repos\Mi Primer Socket\Mi Primer Socket\bin\Debug\net6.0\Mi Primer Socket.deps.json
+C:\Users\AAAAAAAAAAAAAAA\source\repos\Mi Primer Socket\Mi Primer Socket\bin\Debug\net6.0\Mi Primer Socket.runtimeconfig.json
+C:\Users\AAAAAAAAAAAAAAA\source\repos\Mi Primer Socket\Mi Primer Socket\bin\Debug\net6.0\Mi Primer Socket.dll
+C:\Users\AAAAAAAAAAAAAAA\source\repos\Mi Primer Socket\Mi Primer Socket\bin\Debug\net6.0\Mi Primer Socket.pdb
+C:\Users\AAAAAAAAAAAAAAA\source\repos\Mi Primer Socket\Mi Primer Socket\obj\Debug\net6.0\Mi Primer Socket.dll
+C:\Users\AAAAAAAAAAAAAAA\source\repos\Mi Primer Socket\Mi Primer Socket\obj\Debug\net6.0\refint\Mi Primer Socket.dll
+C:\Users\AAAAAAAAAAAAAAA\source\repos\Mi Primer Socket\Mi Primer Socket\obj\Debug\net6.0\Mi Primer Socket.pdb
+C:\Users\AAAAAAAAAAAAAAA\source\repos\Mi Primer Socket\Mi Primer Socket\obj\Debug\net6.0\Mi Primer Socket.genruntimeconfig.cache
+C:\Users\AAAAAAAAAAAAAAA\source\repos\Mi Primer Socket\Mi Primer Socket\obj\Debug\net6.0\ref\Mi Primer Socket.dll
