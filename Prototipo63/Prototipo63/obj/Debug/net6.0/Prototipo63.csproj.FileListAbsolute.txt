@@ -1,0 +1,15 @@
+C:\Users\JESIS PCMásterRace\source\repos\Prototipo63\Prototipo63\bin\Debug\net6.0\Prototipo63.exe
+C:\Users\JESIS PCMásterRace\source\repos\Prototipo63\Prototipo63\bin\Debug\net6.0\Prototipo63.deps.json
+C:\Users\JESIS PCMásterRace\source\repos\Prototipo63\Prototipo63\bin\Debug\net6.0\Prototipo63.runtimeconfig.json
+C:\Users\JESIS PCMásterRace\source\repos\Prototipo63\Prototipo63\bin\Debug\net6.0\Prototipo63.dll
+C:\Users\JESIS PCMásterRace\source\repos\Prototipo63\Prototipo63\bin\Debug\net6.0\Prototipo63.pdb
+C:\Users\JESIS PCMásterRace\source\repos\Prototipo63\Prototipo63\obj\Debug\net6.0\Prototipo63.csproj.AssemblyReference.cache
+C:\Users\JESIS PCMásterRace\source\repos\Prototipo63\Prototipo63\obj\Debug\net6.0\Prototipo63.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JESIS PCMásterRace\source\repos\Prototipo63\Prototipo63\obj\Debug\net6.0\Prototipo63.AssemblyInfoInputs.cache
+C:\Users\JESIS PCMásterRace\source\repos\Prototipo63\Prototipo63\obj\Debug\net6.0\Prototipo63.AssemblyInfo.cs
+C:\Users\JESIS PCMásterRace\source\repos\Prototipo63\Prototipo63\obj\Debug\net6.0\Prototipo63.csproj.CoreCompileInputs.cache
+C:\Users\JESIS PCMásterRace\source\repos\Prototipo63\Prototipo63\obj\Debug\net6.0\Prototipo63.dll
+C:\Users\JESIS PCMásterRace\source\repos\Prototipo63\Prototipo63\obj\Debug\net6.0\refint\Prototipo63.dll
+C:\Users\JESIS PCMásterRace\source\repos\Prototipo63\Prototipo63\obj\Debug\net6.0\Prototipo63.pdb
+C:\Users\JESIS PCMásterRace\source\repos\Prototipo63\Prototipo63\obj\Debug\net6.0\Prototipo63.genruntimeconfig.cache
+C:\Users\JESIS PCMásterRace\source\repos\Prototipo63\Prototipo63\obj\Debug\net6.0\ref\Prototipo63.dll
