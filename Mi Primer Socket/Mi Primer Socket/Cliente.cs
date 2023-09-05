@@ -22,16 +22,17 @@ public class Cliente
             Array.Resize(ref byterecib,numrec);
             String txtrec = Encoding.Default.GetString(byterecib);
             Console.WriteLine(txtrec);
-            String nombre= Console.ReadLine();
+            String nombre = Console.ReadLine();
             byte[] otrotxt= Encoding.Default.GetBytes(nombre);
             miSocket.Send(otrotxt, 0, otrotxt.Count(), 0);
             Console.WriteLine("envio : " + nombre);
             byte[] byterecibido = new byte[255];
             int numero = miSocket.Receive(byterecibido,0,byterecibido.Count(),0);
-            Array.Resize(ref byterecibido,numrec);
+            Array.Resize(ref byterecibido,numero);
             txtrec = Encoding.Default.GetString(byterecibido);
             Console.WriteLine(txtrec);
             miSocket.Close();
+            
             
         }
         catch (Exception error)
