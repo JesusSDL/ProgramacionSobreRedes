@@ -22,18 +22,21 @@ public class Servidor
             Console.WriteLine(elMensaje);
             String texto = "nombre?";
             Byte[] txtAEnviar = Encoding.Default.GetBytes(texto);
-            miSocket.Send(txtAEnviar, 0, txtAEnviar.Count(), 0);
+            // miSocket.Send(txtAEnviar, 0, txtAEnviar.Count(), 0);
+            escuchar.Send(txtAEnviar, 0, txtAEnviar.Count(), 0);
             Console.WriteLine(texto);
             Byte[] byteRecv = new byte[255];
             enteroRecibido = escuchar.Receive(byteRecv, 0, byteRecv.Count(), 0);
             Array.Resize(ref  byteRecv, enteroRecibido);
-            elMensaje = Encoding.Default.GetString((byte[])byteRecv);
+            elMensaje = Encoding.Default.GetString(byteRecv);
             Console.WriteLine(elMensaje);
             String nuevoMensaje = "Hola " + elMensaje;
             Byte[] byRepartir = Encoding.Default.GetBytes(nuevoMensaje);
-            miSocket.Send(byRepartir, 0, byRepartir.Count(), 0);
+            //miSocket.Send(byRepartir, 0, byRepartir.Count(), 0);
+            escuchar.Send(byRepartir, 0, byRepartir.Count(), 0);
             Console.WriteLine(nuevoMensaje);
             miSocket.Close();
+            escuchar.Close();
         }
         catch(Exception error){
 
