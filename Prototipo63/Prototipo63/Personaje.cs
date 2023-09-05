@@ -11,22 +11,23 @@ namespace Prototipo63
 
         private int hp { get; set; } = 200;
         private int def { get; set; } = 50;
+        private int usosEspecial { get; set; } = 3;
+        private int usosCura { get; set; } = 2;
 
-            public int ataqueNormal(int hp)
+        public int ataqueNormal(int hp)
             {
                 return hp -= 30;
             }
             
             public int ataqueEspecial(int hp)
             {
-            int contadorUsos = 3;
-                if (contadorUsos > 0)
+                if (usosEspecial > 0)
                 {
                 Random random = new Random();
                 int valorMinimo = 15;
                 int valorMaximo = 80;
                 int numeroAleatorio = random.Next(valorMinimo, valorMaximo + 1);
-                contadorUsos -= 1;
+                usosEspecial -= 1;
                 return hp -= numeroAleatorio;
                 }
             else
@@ -49,11 +50,11 @@ namespace Prototipo63
             return hp;
 
         }
-            public int curar() 
-            {
-            int contadorUsos = 2;
-                if (contadorUsos > 0)
+            public int curar()
+            { 
+                if (usosCura > 0)
                 {
+                usosCura -= 1;
                     return hp += 40;
                 }
                 else
