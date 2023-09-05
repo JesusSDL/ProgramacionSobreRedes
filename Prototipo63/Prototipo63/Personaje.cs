@@ -42,10 +42,8 @@ namespace Prototipo63
             int valorMinimo = 20;
             int valorMaximo = 100;
             int randomizer = random.Next(valorMinimo, valorMaximo + 1);
-            Console.WriteLine(randomizer);
             int sumarVida = (randomizer * atkContrario) / 100;
             hp += sumarVida;
-            Console.WriteLine(hp);
             hp -= atkContrario;
             return hp;
 
