@@ -26,9 +26,9 @@ namespace Prototipo63
                 Random random = new Random();
                 int valorMinimo = 15;
                 int valorMaximo = 80;
-                int numeroAleatorio = random.Next(valorMinimo, valorMaximo + 1);
+                hp -= random.Next(valorMinimo, valorMaximo + 1);
                 usosEspecial -= 1;
-                return hp -= numeroAleatorio;
+                return hp;
                 }
             else
             {
@@ -42,9 +42,7 @@ namespace Prototipo63
             int valorMinimo = 20;
             int valorMaximo = 100;
             int randomizer = random.Next(valorMinimo, valorMaximo + 1);
-            int sumarVida = (randomizer * atkContrario) / 100;
-            hp += sumarVida;
-            hp -= atkContrario;
+            hp+= ((randomizer * atkContrario) / 100) - atkContrario;
             return hp;
 
         }
@@ -52,7 +50,7 @@ namespace Prototipo63
             { 
                 if (usosCura > 0)
                 {
-                usosCura -= 1;
+                    usosCura -= 1;
                     return hp += 40;
                 }
                 else
