@@ -6,13 +6,20 @@ using System.Threading.Tasks;
 
 namespace Prototipo63
 {
-    internal class Personaje
+    public class Personaje
     {
 
-        private int hp { get; set; } = 200;
-        private int def { get; set; } = 50;
+        private int hp { get; set; }
+        private int def { get; set; }
         private int usosEspecial { get; set; } = 3;
         private int usosCura { get; set; } = 2;
+
+        public Personaje(int hp, int def) 
+        {
+            this.hp = hp;
+            this.def = def; 
+
+        }
 
         public int ataqueNormal(int hp)
             {
@@ -36,7 +43,7 @@ namespace Prototipo63
                           //es más cómodo para sacarlo del menú al hacer una comparativa 
             }
             }
-            public float defender(int atkContrario)
+            public int defender(int atkContrario)
             {
             Random random = new Random();
             int valorMinimo = 20;
