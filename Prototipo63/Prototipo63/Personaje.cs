@@ -43,13 +43,14 @@ namespace Prototipo63
                           //es más cómodo para sacarlo del menú al hacer una comparativa 
             }
             }
-            public int defender(int atkContrario)
+            public int defender(int recibirDanio)
             {
             Random random = new Random();
             int valorMinimo = 20;
             int valorMaximo = 100;
             int randomizer = random.Next(valorMinimo, valorMaximo + 1);
-            hp+= ((randomizer * atkContrario) / 100) - atkContrario;
+            int atkContrincante = hp - recibirDanio;
+            hp -= ((randomizer / 100) * atkContrincante);
             return hp;
 
         }
