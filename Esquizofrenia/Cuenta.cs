@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Esquizofrenia
 {
-    internal class Plato
+    internal class Cuenta
     {
-        private string nombre { get; set; }
-        private int tamaño { get; set; }
-        private float precio { get; set; }
-
+        private int idMesa { get; set; }
+        private float precioTotal { get; set; }
+        private DateTime fecha { get; set; }
     }
 }

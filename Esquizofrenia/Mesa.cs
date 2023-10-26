@@ -8,7 +8,12 @@ namespace Esquizofrenia
 {
     internal class Mesa
     {
-        bool estado { get; set; }
+
+        private bool estado { get; set; }
         
+        public void moviendoMesa()
+        {
+
+        }
     }
 }

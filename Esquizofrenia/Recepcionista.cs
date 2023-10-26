@@ -8,15 +8,15 @@ namespace Esquizofrenia
 {
     internal class Recepcionista
     {
-        string user { get; set; }
-        string password { get; set; }
         string nombreApellido { get; set; }
         string dni { get; set; }
+
+        string user { get; set; }
+        string password { get; set; }
 
         public void moviendomesa()
         {
 
         }
-
     }
 }
